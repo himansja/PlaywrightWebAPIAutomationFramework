@@ -8,6 +8,7 @@ node_modules/
 /playwright/.auth/
 /reporting-labs/
 /reports/
+/allure-results/
 
 # Env files
 config/.env.*
