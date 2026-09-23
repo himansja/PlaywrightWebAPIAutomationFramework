@@ -1,0 +1,19 @@
+[
+  {
+    "username": "wrongopen.com",
+    "password": "wrongpassword",
+    "expectedResult" : "Fail"
+  },
+
+  {
+    "username": "wrongopen1.com",
+    "password": "wrongpassword",
+    "expectedResult" : "Fail"
+  },
+
+  {
+    "username": "manish.wilson561@test.com",
+    "password": "pw123",
+    "expectedResult" : "success"
+  }
+]
