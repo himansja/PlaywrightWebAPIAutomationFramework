@@ -1,1 +1,0 @@
-{"attachments":[],"errors":[{"message":"POST -- generate the access token failed: Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 400","trace":"Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 200\nReceived: 400\n    at D:\\Playwright_Framework\\tests\\api\\spotify.oauth2.spec.ts:22:31","timestamp":1790045113283}]}

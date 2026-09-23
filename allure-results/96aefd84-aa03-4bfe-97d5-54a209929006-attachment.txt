@@ -1,3 +1,0 @@
-Auth API Response:  { token: 'e1221381c071165' }
-token ----> e1221381c071165
-Booking ID:  1404
