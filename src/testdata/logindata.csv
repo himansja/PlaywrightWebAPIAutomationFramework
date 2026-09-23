@@ -1,0 +1,3 @@
+username,password,expectedResult
+abc@gmail.com,123,fail
+manish.wilson561@test.com,pw123,success

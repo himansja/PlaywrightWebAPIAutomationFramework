@@ -1,0 +1,312 @@
+[
+ {
+  "time": 1790044996213,
+  "duration": 25720.58,
+  "passed": 28,
+  "failed": 8,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 36,
+  "tests": {
+   "chromium::tests/api/booking.api.spec.ts::booking CRUD with token": [
+    "p",
+    2613
+   ],
+   "chromium::tests/api/mock.spec.ts::Inctercept request and log request": [
+    "p",
+    1138
+   ],
+   "chromium::tests/api/mock.spec.ts::Mock search data api with fake Json ": [
+    "p",
+    1212
+   ],
+   "chromium::tests/api/spotify.oauth2.spec.ts::get albums data test": [
+    "f",
+    269
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::get a user - schema test": [
+    "p",
+    1484
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::get all users - schema test": [
+    "p",
+    370
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › GET API - get all users": [
+    "p",
+    1039
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › POST API -- create a user": [
+    "p",
+    389
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › PUT API -- update a user": [
+    "p",
+    356
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › DELETE API -- delete a user": [
+    "p",
+    374
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::get all users GET api test": [
+    "p",
+    1008
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::create a user POST api test": [
+    "p",
+    370
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::update a user PUT api test": [
+    "f",
+    914
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::delete a user DELETE api test": [
+    "f",
+    342
+   ],
+   "chromium::tests/homepage.spec.ts::Logout link exists": [
+    "p",
+    2754
+   ],
+   "chromium::tests/homepage.spec.ts::Home page headers": [
+    "p",
+    3350
+   ],
+   "chromium::tests/loginpage.spec.ts::Login page test": [
+    "p",
+    1901
+   ],
+   "chromium::tests/loginpage.spec.ts::forgot pwd link exists": [
+    "p",
+    2002
+   ],
+   "chromium::tests/loginpage.spec.ts::user is able to login with valid credentials": [
+    "p",
+    2834
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with valid credentials": [
+    "p",
+    2836
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::forgot password link exists": [
+    "p",
+    1918
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::Login page test": [
+    "p",
+    1897
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::user is not able to login with invalid credentials": [
+    "p",
+    2723
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with abc@gmail.com and 123": [
+    "p",
+    2690
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with manish.wilson561@test.com and pw123": [
+    "p",
+    2999
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with Json data files wrongopen.com and wrongpassword": [
+    "p",
+    2685
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with Json data files wrongopen1.com and wrongpassword": [
+    "p",
+    2708
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with Json data files manish.wilson561@test.com and pw123": [
+    "p",
+    2986
+   ],
+   "chromium::tests/productinfopage.spec.ts::Verify product header": [
+    "p",
+    4166
+   ],
+   "chromium::tests/productinfopage.spec.ts::Verify product images count": [
+    "p",
+    4369
+   ],
+   "chromium::tests/productinfopage.spec.ts::Verify product information": [
+    "p",
+    4144
+   ],
+   "chromium::tests/searchpage.spec.ts::Search for undefined - undefined and 0 verify results count using data-driven approach": [
+    "f",
+    2719
+   ],
+   "chromium::tests/searchpage.spec.ts::Search for undefined - undefined and 1 verify results count using data-driven approach": [
+    "f",
+    3073
+   ],
+   "chromium::tests/searchpage.spec.ts::Search for undefined - undefined and 2 verify results count using data-driven approach": [
+    "f",
+    2943
+   ],
+   "chromium::tests/searchpage.spec.ts::search for a product and verify results count": [
+    "f",
+    3240
+   ],
+   "chromium::tests/searchpage.spec.ts::verify search results are visible and clickable": [
+    "f",
+    3531
+   ]
+  }
+ },
+ {
+  "time": 1790045111324,
+  "duration": 31120.358,
+  "passed": 28,
+  "failed": 8,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 36,
+  "tests": {
+   "chromium::tests/api/booking.api.spec.ts::booking CRUD with token": [
+    "p",
+    2789
+   ],
+   "chromium::tests/api/mock.spec.ts::Inctercept request and log request": [
+    "p",
+    762
+   ],
+   "chromium::tests/api/mock.spec.ts::Mock search data api with fake Json ": [
+    "p",
+    888
+   ],
+   "chromium::tests/api/spotify.oauth2.spec.ts::get albums data test": [
+    "f",
+    312
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::get a user - schema test": [
+    "p",
+    1548
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::get all users - schema test": [
+    "p",
+    1176
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › GET API - get all users": [
+    "p",
+    1142
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › POST API -- create a user": [
+    "p",
+    391
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › PUT API -- update a user": [
+    "p",
+    393
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › DELETE API -- delete a user": [
+    "p",
+    378
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::get all users GET api test": [
+    "p",
+    375
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::create a user POST api test": [
+    "p",
+    385
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::update a user PUT api test": [
+    "f",
+    572
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::delete a user DELETE api test": [
+    "f",
+    351
+   ],
+   "chromium::tests/homepage.spec.ts::Logout link exists": [
+    "p",
+    3395
+   ],
+   "chromium::tests/homepage.spec.ts::Home page headers": [
+    "p",
+    3616
+   ],
+   "chromium::tests/loginpage.spec.ts::Login page test": [
+    "p",
+    2956
+   ],
+   "chromium::tests/loginpage.spec.ts::forgot pwd link exists": [
+    "p",
+    2581
+   ],
+   "chromium::tests/loginpage.spec.ts::user is able to login with valid credentials": [
+    "p",
+    3243
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with valid credentials": [
+    "p",
+    2963
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::forgot password link exists": [
+    "p",
+    2079
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::Login page test": [
+    "p",
+    2449
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::user is not able to login with invalid credentials": [
+    "p",
+    2884
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with abc@gmail.com and 123": [
+    "p",
+    3036
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with manish.wilson561@test.com and pw123": [
+    "p",
+    3299
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with Json data files wrongopen.com and wrongpassword": [
+    "p",
+    3144
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with Json data files wrongopen1.com and wrongpassword": [
+    "p",
+    2977
+   ],
+   "chromium::tests/loginpageWithFixtures.spec.ts::login with Json data files manish.wilson561@test.com and pw123": [
+    "p",
+    3285
+   ],
+   "chromium::tests/productinfopage.spec.ts::Verify product header": [
+    "p",
+    6266
+   ],
+   "chromium::tests/productinfopage.spec.ts::Verify product images count": [
+    "p",
+    6326
+   ],
+   "chromium::tests/productinfopage.spec.ts::Verify product information": [
+    "p",
+    9425
+   ],
+   "chromium::tests/searchpage.spec.ts::Search for undefined - undefined and 0 verify results count using data-driven approach": [
+    "f",
+    4088
+   ],
+   "chromium::tests/searchpage.spec.ts::Search for undefined - undefined and 1 verify results count using data-driven approach": [
+    "f",
+    3599
+   ],
+   "chromium::tests/searchpage.spec.ts::Search for undefined - undefined and 2 verify results count using data-driven approach": [
+    "f",
+    4605
+   ],
+   "chromium::tests/searchpage.spec.ts::search for a product and verify results count": [
+    "f",
+    4391
+   ],
+   "chromium::tests/searchpage.spec.ts::verify search results are visible and clickable": [
+    "f",
+    3371
+   ]
+  }
+ }
+]

@@ -1,0 +1,117 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: api\users.api.practice.spec.ts >> delete a user DELETE api test
+- Location: tests\api\users.api.practice.spec.ts:81:1
+
+# Error details
+
+```
+Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 204
+Received: 404
+```
+
+# Test source
+
+```ts
+  1  | 
+  2  | 
+  3  | import { test, expect, APIResponse } from '@playwright/test';
+  4  | 
+  5  | let AUTH_TOKEN = {
+  6  |     Authorization: 'Bearer 1d845aa4bebcdb0fea690adf59de3b6fb715af4f80c5eb86c3556abc69909d81'
+  7  | };
+  8  | 
+  9  | test('get all users GET api test', async ({ request }) => {
+  10 | 
+  11 |     let response: APIResponse = await request.get('https://gorest.co.in/public/v2/users', {
+  12 |         headers: AUTH_TOKEN
+  13 |     });
+  14 |     //console.log(response);
+  15 |     let jsonBody = await response.json();
+  16 |     console.log(jsonBody);
+  17 |     console.log(response.status());
+  18 |     console.log(response.statusText());
+  19 | 
+  20 |     expect(response.status()).toBe(200);
+  21 | 
+  22 | });
+  23 | 
+  24 | 
+  25 | test('create a user POST api test', async ({ request }) => {
+  26 | 
+  27 |     //User JS Object:
+  28 |     let userData = {
+  29 |         name: 'manish',
+  30 |         email: `pwautomation_${Date.now()}@open.com`,
+  31 |         gender: 'male',
+  32 |         status: 'active'
+  33 |     }
+  34 |     //JS Object ---> JSON (Serialization)
+  35 |     //JSON.stringify();
+  36 |     // PW automatically serialize, thatøs why we just passing 
+  37 | 
+  38 |     let response = await request.post('https://gorest.co.in/public/v2/users', {
+  39 |         headers: AUTH_TOKEN,
+  40 |         data: userData
+  41 |     });
+  42 | 
+  43 |     let jsonBody = await response.json();
+  44 |     console.log(jsonBody);
+  45 |     console.log(response.status());//201
+  46 |     console.log(response.statusText());//Created
+  47 | 
+  48 |     expect(response.status()).toBe(201);
+  49 | 
+  50 | });
+  51 | 
+  52 | 
+  53 | 
+  54 | test('update a user PUT api test', async ({ request }) => {
+  55 | 
+  56 |     //User JS Object:
+  57 |     let userData = {
+  58 |         name: 'manish lalwani',
+  59 |         email: 'mainshapiautomation12@open.com',
+  60 |         gender: 'male',
+  61 |         status: 'inactive'
+  62 |     }
+  63 |     //JS Object ---> JSON (Serialization)
+  64 |     //JSON.stringify();
+  65 | 
+  66 |     let response = await request.put('https://gorest.co.in/public/v2/users/8616259', {
+  67 |         headers: AUTH_TOKEN,
+  68 |         data: userData
+  69 |     });
+  70 | 
+  71 |     let jsonBody = await response.json();
+  72 |     console.log(jsonBody);
+  73 |     console.log(response.status());//200
+  74 |     console.log(response.statusText());//OK
+  75 | 
+  76 |     expect(response.status()).toBe(200);
+  77 | 
+  78 | });
+  79 | 
+  80 | 
+  81 | test('delete a user DELETE api test', async ({ request }) => {
+  82 | 
+  83 |     let response = await request.delete('https://gorest.co.in/public/v2/users/8616267', {
+  84 |         headers: AUTH_TOKEN,
+  85 |     });
+  86 | 
+  87 |     console.log(response.status());//204
+  88 |     console.log(response.statusText());//No Content
+  89 | 
+> 90 |     expect(response.status()).toBe(204);
+     |                               ^ Error: expect(received).toBe(expected) // Object.is equality
+  91 | 
+  92 | });
+```
